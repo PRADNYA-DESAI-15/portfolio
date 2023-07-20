@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+    
+
+.img{
+    clip-path: circle(50% at 50% 50%);
+    width: 300px;
+    height: 300px;
+}
+
+.img1{
+    width: 30px;
+    height: 60px;
+    padding-top: 25px;
+    float: right;
+}
+.header{
+    background-color: #232323
+}
+.background{
+    /* background-color: #333333; */
+    background-image: url(../portfolio/images/section.jpg);
+    background-size: cover ; 
+}
+.background1{
+    background-color: black;
+}
+.body{
+    background-image: url(../portfolio/images/background.jpg);
+    background-size: cover;
+} 
+
+.color{
+    background-color: #0e1726;
+    border-radius: 90px 0;
+    box-shadow: 0 10px 3px 0 #F5EDCE;
+}
+.about{
+    color: #F5EDCE;
+}
+
+.logo{
+    margin-left: -70px;
+    width: 130px;
+    height: 100px;
+}
+
+.font{
+    font-family:Kunstler Script;
+    font-size: 40px;
+}
+
+.font1{
+    font-family: Elephant Pro;
+    font-size: 45px;
+}
+
+.font2{
+    font-family: Elephant Pro;
+}
+
+.font3{
+    font-family: Broadway;
+    font-size: 50px;
+    color: #E90064;
+    line-height: 2.2em;
+    
+}
+.font3:hover{
+    color: aqua;
+    zoom: 1.2;
+    display:contents;
+}
+
+
+.text{
+    text-decoration: none;
+}
+
+.text1{
+    
+    text-decoration-line: underline ;
+}
+
+.div1{
+    width: 300px;
+    height: 200px;
+    background-color: yellow;
+    position: absolute;
+
+}
+
+.div{
+    margin-top: 200px;
+}
+
+.div2{
+    
+    border-style: double;
+    border-color: white;
+    position: absolute;
+    top: -75px;
+    left: 25px;
+    width: 250px;
+    height: 350px;
+   
+}
+
+.div3{
+    background-image: url(../portfolio/images/pradnya\ contact.jpg);
+    background-size: cover;
+    width: 210px;
+    height: 310px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+
+}
+
+
+.project{
+    background-image: url(../portfolio/images/project.png);
+    background-size: cover;
+}
+
+.contact{
+    background-image: url(../portfolio/images/contact.jpg);
+    background-size: cover;
+}
+.form{
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%);
+    position: relative; 
+    transform: translate(0%,-5%);
+    padding: 25px;
+}
+
+
+@keyframes profile{
+    0%{
+        
+        animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    }
+
+    100%{
+        margin: 60px;
+    }
+}
+
+
+
+@keyframes profile1{
+    0%{
+       
+        animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    }
+
+    100%{
+        margin: 5px;
+    }
+}
+
+.underline1 {
+    width: 200px;
+    height: 4px;
+    background-color: yellow;
+    margin-left: 50px;
+    transition: .5s;
+    -webkit-transition: .5s;
+}
+.underline2 {
+    width: 15px;
+    height: 15px;
+    background-color:yellow;
+    margin-top: -10px;
+    margin-left: 50px;
+    transform: rotate(45deg);
+}
+
+
+.fab{
+    margin: 4px;
+    width: 30px;
+    height: 30px;
+    
+}
+
+.web{
+    margin-top: 400px;
+}
+
+
+@media (min-width: 768px){
+
+    .font1{
+        font-size: 60px;
+    }
+
+    .underline1 {
+        width: 200px;
+        height: 4px;
+        background-color: yellow;
+        margin-left: 170px;
+        transition: .5s;
+        -webkit-transition: .5s;
+    }
+    .underline2 {
+        width: 15px;
+        height: 15px;
+        background-color:yellow;
+        margin-top: -10px;
+        margin-left: 170px;
+        transform: rotate(45deg);
+    }
+   
+
+
+    .div1{
+        
+        animation-name: profile;
+        transition-duration: 1s;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-direction: normal;
+    }
+    
+    .div2{
+        
+        animation-name: profile1;
+        transition-duration: 1s;
+        animation-duration: 5s;
+        margin: 120px;
+        animation-iteration-count: infinite;
+        animation-direction: normal;
+    }
+
+    .logo{
+        margin-left: 100px;
+        width: 130px;
+        height: 100px;
+    }
+
+     .div ,.web{
+        margin-top: 0px;
+    }
+}
