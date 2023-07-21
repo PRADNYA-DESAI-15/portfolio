@@ -5,7 +5,7 @@ $gmail = $_POST['gmail'];
 $contact = $_POST['contact'];
 $message = $_POST['message'];
 
-$to = "pradnyadesai72578@gmail.com";
+$to = "pradnyadesai7257@gmail.com";
 
 $subject = "mail from Portfolio";
 $txt = "Name = " , $name ,  "\r\n Email = ", $gmail , "\r\n Contact = ", $contact , "\r\n Message = ", $message ;
