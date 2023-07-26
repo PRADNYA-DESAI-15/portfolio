@@ -33,9 +33,14 @@
 } 
 
 .color{
-    background-color: #0e1726;
+    background-color: #a9927d;
     border-radius: 90px 0;
     box-shadow: 0 10px 3px 0 #F5EDCE;
+}
+
+.about-text{
+    color: #452F33;
+    font-weight: 500;
 }
 .about{
     color: #F5EDCE;
@@ -175,6 +180,23 @@
     background-color:yellow;
     margin-top: -10px;
     margin-left: 50px;
+    transform: rotate(45deg);
+}
+
+.underline3 {
+    width: 100px;
+    height: 4px;
+    background-color: purple;
+   
+    transition: .5s;
+    -webkit-transition: .5s;
+}
+.underline4 {
+    width: 15px;
+    height: 15px;
+    background-color:purple;
+    margin-top: -10px;
+    
     transform: rotate(45deg);
 }
 
