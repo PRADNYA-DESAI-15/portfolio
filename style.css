@@ -21,14 +21,14 @@
 }
 .background{
     /* background-color: #333333; */
-    background-image: url(../portfolio/images/section.jpg);
+    background-image: url(images/section.jpg);
     background-size: cover ; 
 }
 .background1{
     background-color: black;
 }
 .body{
-    background-image: url(../portfolio/images/background.jpg);
+    background-image: url(images/background.jpg);
     background-size: cover;
 } 
 
@@ -114,7 +114,7 @@
 }
 
 .div3{
-    background-image: url(../portfolio/images/Pradnya\ Desai..jpg);
+    background-image: url(images/Pradnya\ Desai..jpg);
     background-size: cover;
     width: 210px;
     height: 310px;
@@ -126,12 +126,12 @@
 
 
 .project{
-    background-image: url(../portfolio/images/project.png);
+    background-image: url(images/project.png);
     background-size: cover;
 }
 
 .contact{
-    background-image: url(../portfolio/images/contact.jpg);
+    background-image: url(images/contact.jpg);
     background-size: cover;
 }
 .form{
